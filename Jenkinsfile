@@ -3,7 +3,9 @@ pipeline{
 
     //Where the pipeline job will run
 
-    agent any
+    agent {
+        label "Windows_Save_01"
+    }
 
     
     //Start of the stages: build, test,deploy ...
