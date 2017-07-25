@@ -28,6 +28,7 @@ pipeline{
                 bat 'mvn clean install'
 
             }
+        }
             
             stage('deploy') {
              
