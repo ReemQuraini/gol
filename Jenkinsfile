@@ -4,7 +4,7 @@ pipeline{
     //Where the pipeline job will run
 
     agent {
-        label "Windows_Save_01"
+        label "Windows_Slave_01"
     }
 
     
